@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html style=''>
+<head>
+<script src='popup.js'></script>
+</head>
+<body >
+<div id='message'>Injecting Script....</div>
+Tw serviceplus bug:<br/>
+
+<form id='bugzilla_form' name="bugzilla_form" action="http://bug.corp.yahoo.com/enter_bug.cgi" method="post">
+
+<input type="hidden" id="product" name="product" value="TW Serviceplus">
+<input type="hidden" id="component" name="component" value="General">
+
+<!--input type="hidden" id="cc" name="cc" value="sclin@yahoo-inc.com" /-->
+<!--input type="hidden" id="bugtype" name="bugtype" value="" /-->
+<br/>  title       :<input lenght='100' type="text" name="short_desc"        id="short_desc" >
+<!--<br/>  comment          :<input type="text" name="comment"           id="comment">-->
+<br/>  steps_to_verify  :<input type="text" name="steps_to_verify"   id="steps_to_verify">
+<br/>  bug_file_loc     :<input type="text" name="bug_file_loc"      id="bug_file_loc">
+<!--comment-->
+
+<input type="submit" value="Submit" onClick="return submit_request();">
+<br/> comment:<br/>
+
+</from>
+
+</body>
+</html>
